@@ -1,0 +1,11 @@
+def selection_sort(lst):
+    n = len(lst)
+    for i in range(n-1):
+        min_idx = i
+        for j in range(i+1, n):
+            if lst[j] < lst[min_idx]:
+                min_idx = j
+        lst[i], lst[min_idx] = lst[min_idx], lst[i]
+    print(lst)
+
+selection_sort([0, 4, 5, 1, 3, 2])
