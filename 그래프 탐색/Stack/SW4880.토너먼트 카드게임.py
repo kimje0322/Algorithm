@@ -34,5 +34,8 @@ for t in range(1, int(input())+1):
 
 
 
+# 어려웠던 부분
+# first와 second값이 각각 return 되어 구해진 뒤, 그 값들이 다시 first값으로 채워지는 흐름
+
 # card = [idx for idx in enumerate(input().split())]
 # card = [(idx+1, int(rcp)) for idx, rcp in enumerate(input().split())]
