@@ -1,3 +1,6 @@
+# a.count(x) 시간복잡도: O(n)
+# len(a) 시간복잡도: O(1)
+
 import sys
 input = sys.stdin.readline
 from collections import deque
@@ -6,6 +9,7 @@ def bfs():
     # unriped = sum([row.count(0) for row in tomato])
     # if unriped == 0:
     #     return 0
+
     if len(queue) == M * N:
         return 0
     while queue:
