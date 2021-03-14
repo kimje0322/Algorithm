@@ -1,14 +1,24 @@
-def power_set(n,k,s):
-    if s >= B:
-        return s
+def check(idx, sum_num):
+    global ans
+    if sum_num >= ans:
+        return
+    if idx == N:
+        if sum_num >= target:
+            ans = sum_num
+            # 여기서 아예 함수 종료하면 시간 단출될텐데...
+            return
     else:
-        selected[k] = 1
-        power_set(n, k+1, s+heights[k])
-        selected[k] = 0
-        power_set(n,k+1,s)
+        # selected가 필요없음
+        # selected[idx] = 1
+        check(idx+1, sum_num+heights[idx])
+        # selected[idx] = 0
+        check(idx+1, sum_num)
 
-for t in range(int(input())+1):
-    N, B = map(int, input().split())
+for t in range(1, int(input())+1):
+    N, target = map(int, input().split())
     heights = list(map(int, input().split()))
+    heights.sort()
+    ans = sum(heights)
     selected = [0]*N
-    print('#%d' % t, power_set(N,0,0) - B)
+    check(0,0)
+    print('#%d %d' % (t, ans-target))
