@@ -1,23 +1,30 @@
 import sys
 input = sys.stdin.readline
-# from collections import deque
 
-def backtracking(cur):
+def backtracking(l,cur,data):
     global cnt
-    if cur >= N:
+    if l >= N:
+        cnt = max(cnt, cur)
         return
     # d 내구성 w 무게
-    for next in range(cur,N):
-        if data[next] != data[cur]:
-            data[cur] = [data[next][1] - data[cur][0], data[cur][1]]
-            data[next] = [data[cur][1] - data[next][0], data[next][1]]
-            if data[cur][0] <= 0:
-                data.pop(cur)
-                cnt += 1
-            if data[next][0] <= 0:
-                data.pop(next)
-                cnt += 1
-        backtracking(cur+1)
+    if data[l][0] > 0:
+        all_broken = True
+        for r in range(N):
+            if r == l or data[r][0] <= 0:
+                continue
+            all_broken = False
+            data[l][0] -= data[r][1]
+            data[r][0] -= data[l][1]
+            n_cur = cur
+            n_cur += 1 if data[l][0] <= 0 else 0
+            n_cur += 1 if data[r][0] <= 0 else 0
+            backtracking(l+1, n_cur, data)
+            data[l][0] += data[r][1]
+            data[r][0] += data[l][1]
+        if all_broken:
+            backtracking(l+1, cur, data)
+    else:
+        backtracking(l+1, cur, data)
 
 
 N = int(input())
@@ -25,10 +32,7 @@ cnt = 0
 data = [[] for _ in range(N)]
 for i in range(N):
     data[i] = list(map(int, input().split()))
-# data = deque(data)
-print(data)
-# visited = [1]+[0]*(N-1)
-backtracking(0)
+backtracking(0,0,data)
 print(cnt)
 
 
