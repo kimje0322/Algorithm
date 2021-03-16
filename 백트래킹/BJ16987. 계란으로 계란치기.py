@@ -1,5 +1,10 @@
 import sys
 input = sys.stdin.readline
+# 문제 해결 키
+# 0. 문제 이해 => 변하는 것과 변하지 않는 것 파악
+# 1. 함수를 돌아가게 할 기준(인자) 설정
+# 2. 종료 조건
+# 3. 각종 경우의 수(예외) 처리
 
 N = int(input())
 egg_dur = []
@@ -19,11 +24,17 @@ def egg_break(idx, egg_dur, cnt):
         egg_break(idx+1, egg_dur, cnt)
         # 현재 idx 계란이 깨진 경우 다음 계란으로 넘기는 부분인데
         # 재귀함수 호출한 다음에 return 하는 이유가 뭐지?
+        # return을 쓰지 않으면
+        # 해당 idx는 이미 깨져서 for문 돌지 않아도 되는 상황임에도
+        # for문을 포함한 (유망할 경우 돌아야하는)아래 코드를 쓸데 없이 돌게 됨
         return
+
+
     break_1more = False
 
     # idx=0 일 때 i = 1 ... 오른쪽으로 순차적으로만 이동가능한데
     # for문 쓰면 idx=0일때 i = 1,2,3... 전체 탐색하는거 아닌가?
+    # 내구성 검사 if문에서 다 걸러짐
     for i in range(N):
         new_egg_dur = egg_dur[:]
         new_cnt = cnt

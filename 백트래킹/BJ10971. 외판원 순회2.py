@@ -9,7 +9,6 @@ def dfs(s,idx):
         # sumV -= arr[s][start]
         return
 
-
     for next in range(N):
         if arr[s][next] and not visited[next]:
             visited[next] = 1
@@ -27,8 +26,10 @@ for i in range(N):
     start = i
     visited[i] = 1
     dfs(i,0)
+# print(arr)
 print(minV)
 
+# arr = [[0, 10, 15, 20], [5, 0, 9, 10], [6, 13, 0, 12], [8, 8, 9, 0]]
 # 아래 1, 2의 차이가 궁금함.
 # 1은 for문 안에 있을 때 i가 바뀌니까 함수 호출해줄 필요없는 것 같고
 # 2는 for문 돌아가지 않을 때인듯

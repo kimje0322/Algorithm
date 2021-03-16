@@ -9,9 +9,9 @@ def backtraking(idx,sumV):
         if sumV == S:
             cnt += 1
         return
-    # selected[idx] = 1
+    selected[idx] = 1
     backtraking(idx+1, sumV+data[idx])
-    # selected[idx] = 0
+    selected[idx] = 0
     backtraking(idx+1, sumV)
 
 backtraking(0,0)
