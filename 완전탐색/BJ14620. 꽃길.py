@@ -1,22 +1,26 @@
-# sj 설정하면 왜 틀리는지 확인
+# sj 설정?
 
+# 유효성 체크
 def valid_check(i,j):
+    # direction = [(0,0),(-1,0),(1,0),(0,-1),(0,1)]
     for y, x in direction:
         if i+y < 0 or i+y > N-1 or i+x < 0 or i+y > N-1 or visited[i+y][j+x]:
             return False
     return True
 
+# 비용 더하기
 def cal(i,j):
     result = 0
     for y, x in direction:
         result += cost[i+y][j+x]
     return result
 
-# 시작할 위치, 꽃개수, 현재까지 더해진 가격
+# 시작할 행 위치, 꽃개수, 현재까지 더해진 가격
 def dfs(si, cnt, tmp_cost):
     global minV
     if tmp_cost >= minV:
         return
+    # 기저 영역
     if cnt == 3:
         minV = min(minV, tmp_cost)
         return
@@ -30,12 +34,17 @@ def dfs(si, cnt, tmp_cost):
                     visited[i+y][j+x] = 0
 
 N = int(input())
-minV =  (N**2)*200
+minV = (N**2)*200
 cost = [list(map(int, input().split())) for _ in range(N)]
 visited = [[0]*N for _ in range(N)]
 direction = [(0,0),(-1,0),(1,0),(0,-1),(0,1)]
 dfs(1,0,0)
 print(minV)
+
+
+
+
+
 # def check(y,x):
 #     for d in range(5):
 #         ny = y + dy[d]
