@@ -87,9 +87,12 @@ direction = [(-1,0),(1,0),(0,-1),(0,1)]
 cleaner = 0
 # 미세먼지 존재 구간
 dust = []
+# 공청기 위치 찾기
 find()
 for _ in range(T):
+    # 미세먼지 확산
     diffusion()
+    # 공청기 작동
     cleaning()
 ans = 0
 for r in range(R):
