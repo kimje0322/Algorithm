@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f633156-2119-4cac-8d19-03c1302411de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/기타/BJ11650. 좌표 정렬하기.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/시뮬레이션/BJ15683. 감시.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/시뮬레이션/BJ16234. 인구이동.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/시뮬레이션/BJ5212. 지구 온난화.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/그래프 탐색/Queue/BJ2178. 미로 탐색.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/그래프 탐색/Stack/BJ10451. 순열 사이클.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/분할정복/BJ1992. 쿼드트리.py" beforeDir="false" afterPath="$PROJECT_DIR$/분할정복/BJ1992. 쿼드트리.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/시뮬레이션/BJ17144. 미세먼지 안녕!.py" beforeDir="false" afterPath="$PROJECT_DIR$/시뮬레이션/BJ17144. 미세먼지 안녕!.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/기타/BJ11650. 좌표 정렬하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/기타/BJ11650. 좌표 정렬하기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/시뮬레이션/BJ5212. 지구 온난화.py" beforeDir="false" afterPath="$PROJECT_DIR$/시뮬레이션/BJ5212. 지구 온난화.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +30,56 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\김지은\Desktop\2021 코딩\Algorithm\그래프 탐색\Stack" />
       <recent name="C:\Users\김지은\Desktop\2021 코딩\Algorithm\그래프 탐색\Queue" />
       <recent name="C:\Users\김지은\Desktop\2021 코딩\알고리즘\그래프 탐색\Queue" />
       <recent name="C:\Users\김지은\Desktop\2021 코딩\알고리즘" />
       <recent name="C:\Users\김지은\Desktop\2학기 알고리즘\2021\퍼즐로 배우는 알고리즘\04_여왕님들, 떨어지세요" />
-      <recent name="C:\Users\김지은\Desktop\2학기 알고리즘\2021\퍼즐로 배우는 알고리즘\01_모두 똑같이 만들기" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.BJ11650. 좌표 정렬하기">
+  <component name="RunManager" selected="Python.BJ10451. 순열 사이클 (1)">
+    <configuration name="BJ10451. 순열 사이클 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Algorithm_Study_Group/3주차/순열 사이클" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Algorithm_Study_Group/3주차/순열 사이클/BJ10451. 순열 사이클.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="BJ10451. 순열 사이클" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2021" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/그래프 탐색" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\김지은\Desktop\2021 코딩\Algorithm\그래프 탐색\Stack\BJ10451. 순열 사이클.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="BJ11650. 좌표 정렬하기" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -61,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="BJ15683. 감시" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="BJ2178. 미로 탐색" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2021" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,53 +109,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/시뮬레이션" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/그래프 탐색" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/시뮬레이션/BJ15683. 감시.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="BJ16234. 인구이동" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="2021" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/시뮬레이션" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/시뮬레이션/BJ16234. 인구이동.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="BJ1992. 쿼드트리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="2021" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/분할정복" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/분할정복/BJ1992. 쿼드트리.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\김지은\Desktop\2021 코딩\Algorithm\그래프 탐색\Queue\BJ2178. 미로 탐색.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.BJ11650. 좌표 정렬하기" />
+        <item itemvalue="Python.BJ10451. 순열 사이클 (1)" />
+        <item itemvalue="Python.BJ10451. 순열 사이클" />
         <item itemvalue="Python.BJ5212. 지구 온난화" />
-        <item itemvalue="Python.BJ15683. 감시" />
-        <item itemvalue="Python.BJ16234. 인구이동" />
-        <item itemvalue="Python.BJ1992. 쿼드트리" />
+        <item itemvalue="Python.BJ2178. 미로 탐색" />
+        <item itemvalue="Python.BJ11650. 좌표 정렬하기" />
       </list>
     </recent_temporary>
   </component>
@@ -177,38 +175,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="958" y="100" width="485" height="624" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1614526010089" />
-    <state width="637" height="222" key="GridCell.Tab.0.bottom" timestamp="1617092295126">
+    <state width="704" height="166" key="GridCell.Tab.0.bottom" timestamp="1617202662238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="637" height="222" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617092295126" />
-    <state width="637" height="222" key="GridCell.Tab.0.center" timestamp="1617092295126">
+    <state width="704" height="166" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617202662238" />
+    <state width="704" height="166" key="GridCell.Tab.0.center" timestamp="1617202662238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="637" height="222" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617092295126" />
-    <state width="637" height="222" key="GridCell.Tab.0.left" timestamp="1617092295126">
+    <state width="704" height="166" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1617202662238" />
+    <state width="704" height="166" key="GridCell.Tab.0.left" timestamp="1617202662238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="637" height="222" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617092295126" />
-    <state width="637" height="222" key="GridCell.Tab.0.right" timestamp="1617092295126">
+    <state width="704" height="166" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1617202662238" />
+    <state width="704" height="166" key="GridCell.Tab.0.right" timestamp="1617202662238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="637" height="222" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617092295126" />
-    <state width="936" height="49" key="GridCell.Tab.1.bottom" timestamp="1617019979837">
+    <state width="704" height="166" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1617202662238" />
+    <state width="704" height="166" key="GridCell.Tab.1.bottom" timestamp="1617202662239">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="936" height="49" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617019979837" />
-    <state width="936" height="49" key="GridCell.Tab.1.center" timestamp="1617019979837">
+    <state width="704" height="166" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1617202662239" />
+    <state width="704" height="166" key="GridCell.Tab.1.center" timestamp="1617202662238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="936" height="49" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1617019979837" />
-    <state width="936" height="49" key="GridCell.Tab.1.left" timestamp="1617019979837">
+    <state width="704" height="166" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1617202662238" />
+    <state width="704" height="166" key="GridCell.Tab.1.left" timestamp="1617202662238">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="936" height="49" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1617019979837" />
-    <state width="936" height="49" key="GridCell.Tab.1.right" timestamp="1617019979837">
+    <state width="704" height="166" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1617202662238" />
+    <state width="704" height="166" key="GridCell.Tab.1.right" timestamp="1617202662239">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="936" height="49" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1617019979837" />
+    <state width="704" height="166" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1617202662239" />
     <state x="948" y="137" key="RollbackChangesDialog" timestamp="1615887671908">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -221,10 +219,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="848" y="167" width="595" height="490" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1616933511661" />
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1616976729344">
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1617202660685">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1616976729344" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1617202660685" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
