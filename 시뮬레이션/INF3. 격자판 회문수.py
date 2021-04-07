@@ -11,21 +11,24 @@ def pal(s):
 # 단어 완성
 def make_word():
     global cnt
-    # 가로
+    # 강의 코드
+    # 출발점을 큰 for 문에 쓴다.
+    # for i in range(3):
+    #     for j in range(7):
+    #         tmp = board[j][i:i+5]
+    #         pal(tmp)
+    #
+
     for i in range(7):
         for j in range(3):
-            cur = ''
+            cur1 = ''
+            cur2 = ''
             for l in range(5):
-                cur += board[i][j+l]
-            if pal(cur):
+                cur1 += board[i][j+l]
+                cur2 += board[j+l][i]
+            if pal(cur1):
                 cnt += 1
-    # 세로
-    for j in range(7):
-        for i in range(3):
-            cur = ''
-            for l in range(5):
-                cur += board[i+l][j]
-            if pal(cur):
+            if pal(cur2):
                 cnt += 1
 make_word()
 print(cnt)
