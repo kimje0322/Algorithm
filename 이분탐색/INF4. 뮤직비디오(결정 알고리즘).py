@@ -20,16 +20,3 @@ while lt <= rt:
     else:
         lt = mid+1
 print(ans)
-
-
-
-# while lt <= rt:
-#     mid = (lt+rt) // 2
-#     tmp, i = 0, 0
-#     while tmp < mid:
-#         tmp += data[i]
-#     cnt += 1
-#     lt = i
-#     if cnt == m:
-#         break
-# print()
