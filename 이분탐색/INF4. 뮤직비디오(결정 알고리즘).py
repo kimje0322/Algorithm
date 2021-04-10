@@ -14,9 +14,10 @@ lt = 1
 rt = sum(data)
 while lt <= rt:
     mid = (lt+rt)//2
-    if Count(mid)<=m:
+    if Count(mid) <= m:
         ans = mid
         rt = mid - 1
     else:
-        lt = mid+1
+        lt = mid + 1
+
 print(ans)
