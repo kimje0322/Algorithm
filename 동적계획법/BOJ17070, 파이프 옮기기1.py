@@ -6,8 +6,12 @@ def check(y,x,d):
         dy, dx = cos[direction]
         ny, nx = y+dy, x+dx
 #       유효한 범위이고 빈칸이면
-        dp[ny][nx][direction] += dp[y][x][d]
-
+        if 0 <= ny < N and 0 <= nx < N and not data[ny][nx]:
+            if direction != 2:
+                dp[ny][nx][direction] += dp[y][x][d]
+            else:
+                if not data[ny-1][nx] and not data[ny][nx-1]:
+                    dp[ny][nx][direction] += dp[y][x][d]
 
 # 0가로, 1세로, 2대각선
 directions = {0:[0,2], 1:[1,2], 2:[0,1,2]}
@@ -22,9 +26,9 @@ for y in range(N):
         for d in range(3):
             if dp[y][x][d] and not data[y][x]:
                 check(y,x,d)
-    print(sum(dp[N-1][N-1]))
+print(sum(dp[N-1][N-1]))
 
-
+print(data)
 # 문제점
 # 1. 56번줄의 prev_x, prev_y가 알맞게 바뀌지 않는다.
 # 문제 의도상 bfs에 가까울 것 같으나 dfs를 쓴다면
