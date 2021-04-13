@@ -1,24 +1,6 @@
 import sys
 sys.setrecursionlimit(10000)
 input = sys.stdin.readline
-# # stack 구현
-# def dfs():
-#     global cnt
-#     for idx in range(1,len(data)):
-#         if not visited[idx]:
-#             if idx == data[idx]:
-#                 cnt += 1
-#             else:
-#                 stack = []
-#                 stack.append(data[idx])
-#                 visited[idx] = 1
-#                 while stack:
-#                     cur = stack.pop()
-#                     visited[cur] = 1
-#                     if not visited[data[cur]]:
-#                         stack.append(data[cur])
-#                 cnt += 1
-#     return cnt
 
 # 재귀함수
 def dfs(start):
@@ -38,3 +20,24 @@ for _ in range(int(input())):
             dfs(idx)
             cnt += 1
     print(cnt)
+
+
+
+# # stack 구현
+# def dfs():
+#     global cnt
+#     for idx in range(1,len(data)):
+#         if not visited[idx]:
+#             if idx == data[idx]:
+#                 cnt += 1
+#             else:
+#                 stack = []
+#                 stack.append(data[idx])
+#                 visited[idx] = 1
+#                 while stack:
+#                     cur = stack.pop()
+#                     visited[cur] = 1
+#                     if not visited[data[cur]]:
+#                         stack.append(data[cur])
+#                 cnt += 1
+#     return cnt

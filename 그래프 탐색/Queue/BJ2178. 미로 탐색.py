@@ -2,13 +2,6 @@ import sys
 input = sys.stdin.readline
 from collections import deque
 
-# 코드 문제점
-# visited 배열이 적절한 위치에서 초기화 되지 않음 << 이라고 생각했는데
-# 이게 되네?
-# 풀어놓고 이해가 안갔는데
-# bfs는 목적지에 빨리 퍼져서 도달하는 순간 목적(최솟값)을 이룬 것이기 때문에
-# 경로를 따라간다고 생각하면 안 되는 것 같음.
-
 def bfs():
     queue = deque()
     for i in range(N):
@@ -35,3 +28,11 @@ maze = [input() for _ in range(N)]
 visited = [[0]*M for _ in range(N)]
 direction = [(-1,0),(1,0),(0,-1),(0,1)]
 print(bfs())
+
+
+# 코드 문제점
+# visited 배열이 적절한 위치에서 초기화 되지 않음 << 이라고 생각했는데
+# 이게 되네?
+# 풀어놓고 이해가 안갔는데
+# bfs는 목적지에 빨리 퍼져서 도달하는 순간 목적(최솟값)을 이룬 것이기 때문에
+# 경로를 따라간다고 생각하면 안 되는 것 같음.
