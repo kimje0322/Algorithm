@@ -10,11 +10,12 @@ def Count(capacity):
     return cnt
 n, m = map(int, input().split())
 data = list(map(int, input().split()))
+maxV = max(data)
 lt = 1
 rt = sum(data)
 while lt <= rt:
     mid = (lt+rt)//2
-    if Count(mid) <= m:
+    if mid >= maxV and Count(mid) <= m:
         ans = mid
         rt = mid - 1
     else:
