@@ -1,5 +1,6 @@
 import sys
 input = sys.stdin.readline
+
 def check(distance):
     cnt = 1
     ep = house[0]
