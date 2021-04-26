@@ -14,9 +14,10 @@ ab_line = []
 for _ in range(N):
     a, b = map(int, input().split())
     ab_line.append((a,b))
+print(ab_line)
 # ab_line.sort()
 # print(ab_line)
-ab_line.sort(key=lambda x:x[1])
+ab_line.sort(key=lambda x:x[0])
 print(ab_line)
 
 max_length = [1]*N
