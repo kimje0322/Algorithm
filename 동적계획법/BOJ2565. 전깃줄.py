@@ -13,26 +13,15 @@ N = int(input())
 ab_line = []
 for _ in range(N):
     a, b = map(int, input().split())
-    ab_line.append((a,b))
-print(ab_line)
-# ab_line.sort()
-# print(ab_line)
-ab_line.sort(key=lambda x:x[0])
-print(ab_line)
-
-max_length = [1]*N
-# 현재 연결 위치
-for i in range(1,N):
-    # 비교할 이전 연결 위치
+    ab_line.append((a, b))
+ab_line.sort(key=lambda x:x[1])
+max_length = [1]*(N+1)
+for i in range(1, N):
     for j in range(i):
-        print(ab_line[i], ab_line[j])
-        # 현재 a위치 > 비교할 상단의 a위치
         if ab_line[i][0] > ab_line[j][0]:
-            print('>')
             max_length[i] = max(max_length[i], max_length[j]+1)
+
 print(N - max(max_length))
-
-
     # tmp = max(a,b)
     # if maxV < tmp:
     #     maxV = tmp
