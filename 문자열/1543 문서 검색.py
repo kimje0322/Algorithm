@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 def func(file, target):
     i, cnt = 0, 0
     if len(file) >= len(target):

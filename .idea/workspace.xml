@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f633156-2119-4cac-8d19-03c1302411de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기타/nav3.py" beforeDir="false" afterPath="$PROJECT_DIR$/기타/nav3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/기타/nav4.py" beforeDir="false" afterPath="$PROJECT_DIR$/기타/nav2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/문자열/1543 문서 검색.py" beforeDir="false" afterPath="$PROJECT_DIR$/문자열/1543 문서 검색.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
