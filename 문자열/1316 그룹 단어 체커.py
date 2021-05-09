@@ -24,6 +24,8 @@
 #             break
 # print(ans)
 
+import sys
+input = sys.stdin.readline
 # 람다
 arr = [(28, "jy") , [60 , "bg"] , [51 , "ak"]]
 arr.sort(key=lambda x:x[1])
