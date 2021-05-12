@@ -1,21 +1,9 @@
-def f(n):
-    cnt = 0
-    while True:
-        if not n % 3:
-            n //= 3
-            cnt += 1
-            if n == 1:
-                return cnt
-        if not n % 2:
-            n //= 2
-            cnt += 1
-            if n == 1:
-                return cnt
-        n -= 1
-        cnt += 1
-        if n == 1:
-            return cnt
-
-    return cnt
-num = int(input())
-print(f(num))
+n = int(input())
+dp = [0 for _ in range(n+1)]
+for i in range(2, n+1):
+    dp[i] = dp[i-1] + 1
+    if i % 2 == 0 and dp[i] > dp[i//2] + 1:
+        dp[i] = dp[i//2] + 1
+    if i % 3 == 0 and dp[i] > dp[i//3] + 1:
+        dp[i] = dp[i//3] + 1
+print(dp[n])
