@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f633156-2119-4cac-8d19-03c1302411de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/동적계획법/BOJ1010.다리놓기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/동적계획법/BOJ2748. 피보나치 수 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/동적계획법/BOJ2748. 피보나치 수 2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/동적계획법/BOJ2748. 피보나치 수 2.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
