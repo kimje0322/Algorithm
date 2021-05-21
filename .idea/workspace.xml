@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f633156-2119-4cac-8d19-03c1302411de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/기타/BOJ1021.회전하는 큐.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/그래프 탐색/BOJ2206. 벽 부수고 이동하기.py" beforeDir="false" afterPath="$PROJECT_DIR$/그래프 탐색/Stack/BOJ2206. 벽 부수고 이동하기.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/이분탐색/BOJ2805. 나무 자르기.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
